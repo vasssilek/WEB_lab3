@@ -1,0 +1,18 @@
+.footer{
+    position: relative;
+    width: var(--width-footer);
+    height: var(--heigth-footer);
+    float: right;
+    background-color: var(--color-light-green);
+}
+
+.h2_footer{
+    padding-left: var(--padding-left);
+}
+
+.p_created {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    width: 400px;
+}

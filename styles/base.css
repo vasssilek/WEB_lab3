@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Montserrat:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'Geologica';
+    src: url('/Users/natalia/WebstormProjects/lab3/fonts/Geologica/static/Geologica-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src(/Users/natalia/WebstormProjects/lab3/fonts/Montserrat/static/Montserrat-Regular.ttf)
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-white: #FFFFFF;
+    --color-light-green: #eaf4ef;
+    --color-dark-green: #193A2F;
+    --color-black: #000000;
+
+    --font-family-h: 'Geologica';
+    --font-family-text: 'Montserrat', 'MontserratLocal', sans-serif;
+
+    --font-size-h1: 40px;
+    --font-size-h2: 35px;
+    --font-size-menu: 23px;
+    --font-size-p: 20px;
+
+    --width: 1440px;
+
+    --width-header: 1440px;
+    --height-header: 100px;
+
+    --width-menu: 230px;
+    --height-menu: 2295px;
+
+    --width-main: 710px;
+    --height-main: 2295px;
+
+    --width-sidebar: 500px;
+    --height-sidebar: 1798px;
+
+    --width-footer: 500px;
+    --heigth-footer: 497px;
+
+    --width-img: 670px;
+    --height-img: 383px;
+
+    --padding-left: 30px;
+    --padding-top: 20px;
+    --padding-bottom: 15px;
+
+    --padding-text: 10px;
+
+    --line-height: 150%;
+
+    --margin-img: 20px;
+}
