@@ -1,0 +1,42 @@
+.content{
+    width: var(--width-main);
+    height: var(--height-main);
+    float: left;
+}
+
+.about_img {
+    background: url("/img/about.png");
+}
+
+.h2_content {
+    padding-left: var(--padding-left);
+}
+
+.p_content {
+    width: 680px;
+}
+
+.gallery_1 {
+    margin-top: var(--padding-text);
+    background: url("/img/gallery1.png");
+    margin-left: var(--padding-left);
+}
+
+.gallery_2 {
+    background: url("/img/gallery2.png");
+    float: right;
+    margin-right: var(--padding-left);
+}
+
+.gallery_3 {
+    background: url("/img/gallery3.png");
+    margin-left: var(--padding-left);
+    clear: both;
+    margin-bottom: 0 !important;
+}
+
+.map_img {
+    background: url("/img/map.png");
+    margin-top: 10px !important;
+    height: 464px !important;
+}

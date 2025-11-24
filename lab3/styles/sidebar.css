@@ -1,0 +1,24 @@
+.sidebar{
+    width: var(--width-sidebar);
+    height: var(--height-sidebar);
+    float: left;
+}
+
+.h2_sidebar{
+    text-align: center;
+}
+
+.p_sidebar{
+    width: 440px;
+}
+
+.dla_kogo {
+    font-size: 25px;
+    font-family: var(--font-family-h);
+    padding-left: var(--padding-left);
+    padding-top: var(--padding-top);
+}
+
+.serce span {
+    font-family: var(--font-family-h);
+}

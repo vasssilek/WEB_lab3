@@ -1,0 +1,55 @@
+@import url('reset.css');
+@import url('base.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('content.css');
+@import url('sidebar.css');
+@import url('footer.css');
+
+body {
+    margin: auto;
+    max-width: var(--width);
+}
+
+.header, .menu, .content, .sidebar, .footer {
+    border: 1px solid black;
+}
+
+.container{
+    width: var(--width);
+    height: var(--height-main);
+    background-color: var(--color-white);
+    color: var(--color-dark-green);
+    font-family: var(--font-family-h);
+    font-size: var(--font-size-h1);
+}
+
+.p {
+    font-size: var(--font-size-p);
+    color: var(--color-black);
+    font-family: var(--font-family-text);
+    padding-left: var(--padding-left);
+    padding-top: var(--padding-text);
+    line-height: var(--line-height);
+}
+
+.h2 {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-h);
+    color: var(--color-dark-green);
+    padding-top: var(--padding-text);
+}
+
+.img {
+    width: var(--width-img);
+    height: var(--height-img);
+    margin-left: var(--margin-img);
+    margin-top: var(--margin-img);
+    margin-right: var(--margin-img);
+}
+
+.gallery {
+    width: 395px;
+    height: 186px;
+    margin-bottom: 30px;
+}

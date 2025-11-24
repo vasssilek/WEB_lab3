@@ -1,0 +1,22 @@
+.menu {
+    background: var(--color-light-green);
+    width: var(--width-menu);
+    height: var(--height-menu);
+    float: left;
+    font-family: var(--font-family-h);
+    font-size: var(--font-size-menu);
+    padding-top: var(--padding-top);
+}
+
+.menu ul li {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.menu ul li a {
+    color: var(--color-dark-green);
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
